@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenMeetSDKXC'
-  s.version          = '3.0.6'
+  s.version          = '3.0.7'
   s.summary          = 'ScreenMeetSDK enables ScreenMeet\'s realtime platform in your app.'
 
   s.description      = <<-DESC
@@ -23,5 +23,11 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.swift_version = '5.0'
   s.ios.deployment_target = '15.0'
+
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'ENABLE_BITCODE' => 'NO'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
