@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenMeetSDKXC'
-  s.version          = '3.0.3'
+  s.version          = '3.0.5'
   s.summary          = 'ScreenMeetSDK enables ScreenMeet\'s realtime platform in your app.'
 
   s.description      = <<-DESC
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Rostyk/screenmeet-live-sdk-ios-xc.git', :tag => s.version.to_s }
   
   s.swift_version = '5.0'
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
-  s.vendored_frameworks = 'ScreenMeetLive.xcframework'
+  s.ios.vendored_frameworks = 'ScreenMeetLive.xcframework'
   
   s.dependency  'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency  'UniversalWebRTC', '~> 106.0.7'
