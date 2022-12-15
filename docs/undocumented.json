@@ -1,0 +1,236 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/MediasoupSwift/AppStream/SMAppStreamService.swift",
+      "line": 18,
+      "symbol": "SMAppStreamServiceProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/MediasoupSwift/AppStream/SMAppStreamService.swift",
+      "line": 36,
+      "symbol": "SMAppStreamServiceProtocol.setConfidential(rect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/MediasoupSwift/AppStream/SMAppStreamService.swift",
+      "line": 38,
+      "symbol": "SMAppStreamServiceProtocol.unsetConfidential(rect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/Error/SMError.swift",
+      "line": 66,
+      "symbol": "SMHTTPCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/Error/SMError.swift",
+      "line": 67,
+      "symbol": "SMHTTPCode.notFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/Error/SMError.swift",
+      "line": 68,
+      "symbol": "SMHTTPCode.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/SMHandshakeTransaction.swift",
+      "line": 14,
+      "symbol": "SMChallenge",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/SMHandshakeTransaction.swift",
+      "line": 23,
+      "symbol": "SMChallenge.solve(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Session/Transactions/SMHandshakeTransaction.swift",
+      "line": 27,
+      "symbol": "SMChallenge.getSvg()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 10,
+      "symbol": "SMTextMessage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 11,
+      "symbol": "SMTextMessage.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 12,
+      "symbol": "SMTextMessage.createdOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 13,
+      "symbol": "SMTextMessage.updatedOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 14,
+      "symbol": "SMTextMessage.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 15,
+      "symbol": "SMTextMessage.senderId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Chat/SMTextMessage.swift",
+      "line": 16,
+      "symbol": "SMTextMessage.senderName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementModel.swift",
+      "line": 10,
+      "symbol": "SMFeature",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementModel.swift",
+      "line": 11,
+      "symbol": "SMFeature.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementModel.swift",
+      "line": 12,
+      "symbol": "SMFeature.requestorParticipant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementType.swift",
+      "line": 10,
+      "symbol": "SMEntitlementType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementType.swift",
+      "line": 11,
+      "symbol": "SMEntitlementType.laserpointer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/Entitlements/SMEntitlementType.swift",
+      "line": 12,
+      "symbol": "SMEntitlementType.remotecontrol",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlKeyboardEvent.swift",
+      "line": 12,
+      "symbol": "SMKeyboardActionType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlKeyboardEvent.swift",
+      "line": 13,
+      "symbol": "SMKeyboardActionType.keydown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlKeyboardEvent.swift",
+      "line": 14,
+      "symbol": "SMKeyboardActionType.keyup",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 12,
+      "symbol": "SMMouseActionType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 13,
+      "symbol": "SMMouseActionType.leftdown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 14,
+      "symbol": "SMMouseActionType.rightdown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 15,
+      "symbol": "SMMouseActionType.move",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 16,
+      "symbol": "SMMouseActionType.leftup",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/RemoteControl/Events/SMRemoteControlMouseEvent.swift",
+      "line": 17,
+      "symbol": "SMMouseActionType.rightup",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/SMMediasoupChannel/Tracks & Encodings/SMImageHandler.swift",
+      "line": 12,
+      "symbol": "SMImageHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ross/Work/iOS/ScreenMeet/ScreenMeetSDK/Classes/Transport/Channels/SMMediasoupChannel/Tracks & Encodings/SMImageHandler.swift",
+      "line": 15,
+      "symbol": "SMImageHandler.transferImage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ross/Work/iOS/ScreenMeet"
+}

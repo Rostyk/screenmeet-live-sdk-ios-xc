@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SMErrorCode Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/SMErrorCode" class="dashAnchor"></a>
+    <a title="SMErrorCode Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ScreenMeetSDK 2.0.11 Docs</a> (81% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ScreenMeetSDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        SMErrorCode Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/SMChallenge.html">SMChallenge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMImageHandler.html">SMImageHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlEvent.html">SMRemoteControlEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlKeyboardEvent.html">SMRemoteControlKeyboardEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlMouseEvent.html">SMRemoteControlMouseEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeet.html">ScreenMeet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeetConfig.html">ScreenMeetConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeetConfig/LogLevel.html">– LogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/SMConnectionState.html">SMConnectionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMDisconnectionReason.html">SMDisconnectionReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMEntitlementType.html">SMEntitlementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMErrorCode.html">SMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMHTTPCode.html">SMHTTPCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMIdentityInfoRole.html">SMIdentityInfoRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMKeyboardActionType.html">SMKeyboardActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMMouseActionType.html">SMMouseActionType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SMAppStreamServiceProtocol.html">SMAppStreamServiceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ScreenMeetChatDelegate.html">ScreenMeetChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ScreenMeetDelegate.html">ScreenMeetDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SMError.html">SMError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMFeature.html">SMFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipant.html">SMParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState.html">SMParticipantMediaState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState/VideoState.html">– VideoState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState/AudioState.html">– AudioState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMTextMessage.html">SMTextMessage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:13ScreenMeetSDK19SMConnectCompletiona">SMConnectCompletion</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SMErrorCode</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SMErrorCode</span> <span class="p">:</span> <span class="kt">Equatable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Represents ScreenMeet error codes</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SQ2eeoiySbx_xtFZ"></a>
+                    <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SQ2eeoiySbx_xtFZ">==(_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">l</span><span class="p">:</span> <span class="kt">SMErrorCode</span><span class="p">,</span> <span class="nv">r</span><span class="p">:</span> <span class="kt">SMErrorCode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO9httpErroryAcA10SMHTTPCodeOcACmF"></a>
+                    <a name="//apple_ref/swift/Element/httpError(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO9httpErroryAcA10SMHTTPCodeOcACmF">httpError(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>HTTP connection error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">httpError</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt"><a href="../Enums/SMHTTPCode.html">SMHTTPCode</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO11socketErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/socketError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO11socketErroryA2CmF">socketError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Socket connection error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">socketError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO17notReachableErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/notReachableError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO17notReachableErroryA2CmF">notReachableError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unaccessible server</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">notReachableError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO24transactionInternalErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/transactionInternalError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO24transactionInternalErroryA2CmF">transactionInternalError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Transaction error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">transactionInternalError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO21capturerInternalErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/capturerInternalError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO21capturerInternalErroryA2CmF">capturerInternalError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Video capturer error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">capturerInternalError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO15mediaTrackErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mediaTrackError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO15mediaTrackErroryA2CmF">mediaTrackError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Media track error</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mediaTrackError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO33knockEntryPermissionRequiredErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/knockEntryPermissionRequiredError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO33knockEntryPermissionRequiredErroryA2CmF">knockEntryPermissionRequiredError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Knock feature is on and permission from host to let the user in is required</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">knockEntryPermissionRequiredError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO33knockWaitTimeForEntryExpiredErroryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/knockWaitTimeForEntryExpiredError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO33knockWaitTimeForEntryExpiredErroryA2CmF">knockWaitTimeForEntryExpiredError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Knock feature is on and waiting time for entrance expired</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">knockWaitTimeForEntryExpiredError</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO15droppedByServeryA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/droppedByServer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO15droppedByServeryA2CmF">droppedByServer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Connection dropped by server</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">droppedByServer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK11SMErrorCodeO23tooManyCaptchaAttempmtsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/tooManyCaptchaAttempmts" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK11SMErrorCodeO23tooManyCaptchaAttempmtsyA2CmF">tooManyCaptchaAttempmts</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Too many faield acptchas have been entered</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">tooManyCaptchaAttempmts</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://github.com/screenmeet/screenmeet-live-sdk-ios" target="_blank" rel="external noopener">ScreenMeet</a>. All rights reserved. (Last updated: 2022-05-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

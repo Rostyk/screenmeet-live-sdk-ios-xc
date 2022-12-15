@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ScreenMeet Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ScreenMeet" class="dashAnchor"></a>
+    <a title="ScreenMeet Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ScreenMeetSDK 2.0.11 Docs</a> (81% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ScreenMeetSDK Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ScreenMeet Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/SMChallenge.html">SMChallenge</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMImageHandler.html">SMImageHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlEvent.html">SMRemoteControlEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlKeyboardEvent.html">SMRemoteControlKeyboardEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMRemoteControlMouseEvent.html">SMRemoteControlMouseEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeet.html">ScreenMeet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeetConfig.html">ScreenMeetConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScreenMeetConfig/LogLevel.html">– LogLevel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/SMConnectionState.html">SMConnectionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMDisconnectionReason.html">SMDisconnectionReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMEntitlementType.html">SMEntitlementType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMErrorCode.html">SMErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMHTTPCode.html">SMHTTPCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMIdentityInfoRole.html">SMIdentityInfoRole</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMKeyboardActionType.html">SMKeyboardActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SMMouseActionType.html">SMMouseActionType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/SMAppStreamServiceProtocol.html">SMAppStreamServiceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ScreenMeetChatDelegate.html">ScreenMeetChatDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ScreenMeetDelegate.html">ScreenMeetDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/SMError.html">SMError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMFeature.html">SMFeature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipant.html">SMParticipant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState.html">SMParticipantMediaState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState/VideoState.html">– VideoState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMParticipantMediaState/AudioState.html">– AudioState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SMTextMessage.html">SMTextMessage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:13ScreenMeetSDK19SMConnectCompletiona">SMConnectCompletion</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ScreenMeet</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ScreenMeet</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Main class to work with ScreenMeet SDK</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C6configAA0aB6ConfigCvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/config" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C6configAA0aB6ConfigCvpZ">config</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>ScreenMeet Configuration</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">config</span><span class="p">:</span> <span class="kt"><a href="../Classes/ScreenMeetConfig.html">ScreenMeetConfig</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C8delegateAA0aB8Delegate_pSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C8delegateAA0aB8Delegate_pSgvpZ">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Session delegate. Should be set before calling connect()</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ScreenMeetDelegate.html">ScreenMeetDelegate</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C12chatDelegateAA0ab4ChatE0_pSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/chatDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C12chatDelegateAA0ab4ChatE0_pSgvpZ">chatDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Chat delegate. Should be set in case you want to receive chat messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">weak</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">chatDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ScreenMeetChatDelegate.html">ScreenMeetChatDelegate</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C7connectyySS_SSyAA7SMErrorVSgctFZ"></a>
+                    <a name="//apple_ref/swift/Method/connect(_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C7connectyySS_SSyAA7SMErrorVSgctFZ">connect(_:<wbr>_:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts ScreenMeet session. No code specified, user will be asked to enter code value</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">connect</span><span class="p">(</span><span class="n">_</span> <span class="nv">code</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                           <span class="n">_</span> <span class="nv">localUserName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                           <span class="n">_</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:13ScreenMeetSDK19SMConnectCompletiona">SMConnectCompletion</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>code</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Identify session created by agent</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>localUserName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The name of your local user. It will be visible to all attendees</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Session start callback with status <code><a href="../Typealiases.html#/s:13ScreenMeetSDK19SMConnectCompletiona">SMConnectCompletion</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C10disconnectyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/disconnect()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C10disconnectyyFZ">disconnect()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Close screenmeet session and hangup.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">disconnect</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C13getMediaStateAA013SMParticipanteF0VyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getMediaState()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C13getMediaStateAA013SMParticipanteF0VyFZ">getMediaState()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get caller audio/video states</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getMediaState</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/SMParticipantMediaState.html">SMParticipantMediaState</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C11shareCamerayySo15AVCaptureDeviceCSgFZ"></a>
+                    <a name="//apple_ref/swift/Method/shareCamera(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C11shareCamerayySo15AVCaptureDeviceCSgFZ">shareCamera(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start camera sharing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">shareCamera</span><span class="p">(</span><span class="n">_</span> <span class="nv">cameraDevice</span><span class="p">:</span> <span class="kt">AVCaptureDevice</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cameraDevice</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Device to capture frames (see <code>AVCaptureDevice</code>). Default is front camera.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C05shareA0yyFZ"></a>
+                    <a name="//apple_ref/swift/Method/shareScreen()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C05shareA0yyFZ">shareScreen()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start screen sharing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">shareScreen</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C05shareA17WithImageTransferyyyAA14SMImageHandlerCSgcFZ"></a>
+                    <a name="//apple_ref/swift/Method/shareScreenWithImageTransfer(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C05shareA17WithImageTransferyyyAA14SMImageHandlerCSgcFZ">shareScreenWithImageTransfer(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start screen sharing with providing raw images of screen</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">shareScreenWithImageTransfer</span><span class="p">(</span><span class="n">_</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">((</span><span class="kt"><a href="../Classes/SMImageHandler.html">SMImageHandler</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C16stopVideoSharingyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/stopVideoSharing()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C16stopVideoSharingyyFZ">stopVideoSharing()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stop video sharing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">stopVideoSharing</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C15shareMicrophoneyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/shareMicrophone()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C15shareMicrophoneyyFZ">shareMicrophone()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start audio sharing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">shareMicrophone</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C16stopAudioSharingyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/stopAudioSharing()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C16stopAudioSharingyyFZ">stopAudioSharing()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stop audio sharing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">stopAudioSharing</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C20getVideoSourceDeviceSo09AVCaptureG0CSgyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getVideoSourceDevice()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C20getVideoSourceDeviceSo09AVCaptureG0CSgyFZ">getVideoSourceDevice()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns current video source device.
+<code>nil</code> for screen capturing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getVideoSourceDevice</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AVCaptureDevice</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C15getParticipantsSayAA13SMParticipantVGyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getParticipants()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C15getParticipantsSayAA13SMParticipantVGyFZ">getParticipants()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns list of call participants. See <code><a href="../Structs/SMParticipant.html">SMParticipant</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getParticipants</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/SMParticipant.html">SMParticipant</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C18getConnectionStateAA012SMConnectionF0OyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getConnectionState()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C18getConnectionStateAA012SMConnectionF0OyFZ">getConnectionState()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns connection state. This is basically the signalling socket state. See <code><a href="../Enums/SMConnectionState.html">SMConnectionState</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getConnectionState</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/SMConnectionState.html">SMConnectionState</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C19getAppStreamServiceAA05SMAppfG8Protocol_pyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getAppStreamService()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C19getAppStreamServiceAA05SMAppfG8Protocol_pyFZ">getAppStreamService()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns SMAppStreamServiceProtocol. See <code><a href="../Protocols/SMAppStreamServiceProtocol.html">SMAppStreamServiceProtocol</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getAppStreamService</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/SMAppStreamServiceProtocol.html">SMAppStreamServiceProtocol</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C15getChatMessagesSayAA13SMTextMessageVGyFZ"></a>
+                    <a name="//apple_ref/swift/Method/getChatMessages()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C15getChatMessagesSayAA13SMTextMessageVGyFZ">getChatMessages()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns all the messages from the chat of the ongoing session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">getChatMessages</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/SMTextMessage.html">SMTextMessage</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C15sendTextMessageyySSFZ"></a>
+                    <a name="//apple_ref/swift/Method/sendTextMessage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C15sendTextMessageyySSFZ">sendTextMessage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send the message into the chat of ongoing session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">sendTextMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C14activeFeaturesSayAA9SMFeatureVGyFZ"></a>
+                    <a name="//apple_ref/swift/Method/activeFeatures()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C14activeFeaturesSayAA9SMFeatureVGyFZ">activeFeatures()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the list of ongoign features</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">activeFeatures</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/SMFeature.html">SMFeature</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13ScreenMeetSDK0aB0C11stopFeatureyyAA9SMFeatureVFZ"></a>
+                    <a name="//apple_ref/swift/Method/stopFeature(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ScreenMeetSDK0aB0C11stopFeatureyyAA9SMFeatureVFZ">stopFeature(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stop (revoke access)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">stopFeature</span><span class="p">(</span><span class="n">_</span> <span class="nv">feature</span><span class="p">:</span> <span class="kt"><a href="../Structs/SMFeature.html">SMFeature</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>featureType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The feature type to stop. See <code><a href="../Structs/SMFeature.html">SMFeature</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="https://github.com/screenmeet/screenmeet-live-sdk-ios" target="_blank" rel="external noopener">ScreenMeet</a>. All rights reserved. (Last updated: 2022-05-19)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
