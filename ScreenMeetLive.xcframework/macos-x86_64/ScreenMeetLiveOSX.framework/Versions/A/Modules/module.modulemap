@@ -1,0 +1,11 @@
+framework module ScreenMeetLiveOSX {
+  umbrella header "ScreenMeetLiveOSX.h"
+
+  export *
+  module * { export * }
+}
+
+module ScreenMeetLiveOSX.Swift {
+  header "ScreenMeetLiveOSX-Swift.h"
+  requires objc
+}
