@@ -19,14 +19,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.ios.vendored_frameworks = 'ScreenMeetLive.xcframework'
-  s.ios.preserve_paths = "*"
+  #s.ios.preserve_paths = "*"
   
   s.dependency  'Socket.IO-Client-Swift', '~> 15.2.0'
   s.dependency  'UniversalWebRTC', '~> 106.0.7'
 
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'ENABLE_BITCODE' => 'NO'
-  }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
