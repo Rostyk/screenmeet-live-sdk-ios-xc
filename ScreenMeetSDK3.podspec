@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   vendored_frameworks = 'ScreenMeetLive.xcframework'
   
-  s.dependency  'Socket.IO-Client-Swift', '~> 15.2.0'
+  s.dependency  'Socket.IO-Client-Swift', '~> 16.0.1'
   s.dependency  'UniversalWebRTC', '~> 106.0.7'
 
   s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
