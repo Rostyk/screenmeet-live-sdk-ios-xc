@@ -2,8 +2,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ScreenMeetSDK3'
-  s.version          = '3.0.43'
+  s.name             = 'ScreenMeetLive'
+  s.version          = '3.0.44'
   s.summary          = 'ScreenMeetSDK enables ScreenMeet\'s realtime platform in your app.'
 
   s.description      = <<-DESC
