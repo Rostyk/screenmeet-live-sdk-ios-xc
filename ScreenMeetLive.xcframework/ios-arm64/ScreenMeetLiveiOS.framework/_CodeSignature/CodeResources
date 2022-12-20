@@ -16,10 +16,6 @@
 		<data>
 		njqjSlqkxhnML+eXyHKQCRhU+rU=
 		</data>
-		<key>Modules/ScreenMeetLiveiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		+XA9SZUGaZfYq+dmH+7nKkxXNfI=
-		</data>
 		<key>Modules/ScreenMeetLiveiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		V+3Ba38mumdEK8QPSrwfJQZFv1c=
@@ -38,7 +34,7 @@
 		</data>
 		<key>Modules/ScreenMeetLiveiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cCo2e/5qfNrmBxGXU3rP/K69L9U=
+		4/DOsHIMqW6FJnoA3S86T/x+EeA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,13 +55,6 @@
 			<key>hash2</key>
 			<data>
 			aa6FlmSKj7xelkp//FH+OH1KMA6s3bmfIEi6BNv0Ypc=
-			</data>
-		</dict>
-		<key>Modules/ScreenMeetLiveiOS.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jBo8JOzlQ0hM7cyLQ7jHoEjZpLPI+b5uE9S48WLT8ho=
 			</data>
 		</dict>
 		<key>Modules/ScreenMeetLiveiOS.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -100,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uTWjpCE9h0T2rADbJEba8w7452TBmXAY3KZoPLHDH0A=
+			mwwni1g+6RnUqhFhaNC220oiZT11x5iMEpXKpRQEiP0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -25,20 +25,6 @@
 			NpLjrg6GxzKCXP6/oZ0RWKX3mcWsb/e5F/rx/qHfYT4=
 			</data>
 		</dict>
-		<key>Modules/ScreenMeetLiveOSX.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8GZzx0XIqGQPdN/7dw0wZttnETjNVQYOjWXht/sQhwU=
-			</data>
-		</dict>
-		<key>Modules/ScreenMeetLiveOSX.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1Cyaq6mY6buW/yRwNJqu85xdfvMOFY70HFN8Bt5JiSk=
-			</data>
-		</dict>
 		<key>Modules/ScreenMeetLiveOSX.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -71,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			driYax/jTy7vwJGRLqluXvpM9R7ZU+VbPMYnv+NtawY=
+			h7SV42fqb12922IHUSEn5/l32bQ9CMKmvfdmK1XzJpc=
 			</data>
 		</dict>
 		<key>Modules/ScreenMeetLiveOSX.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -106,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u0YK4X1s6KEBV4moZYC9VzoiE1qADGTFS1G6/FPKo+U=
+			isDmH4Y/3vltK4fMCWz3bYIu2SUm44ggm1/zsmEXC4Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
