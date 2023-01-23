@@ -169,10 +169,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SMVideoSource",
-                "printedName": "ScreenMeetLiveiOS.SMVideoSource",
-                "hasDefaultArg": true,
-                "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ScreenMeetLiveiOS.SMVideoSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMVideoSource",
+                    "printedName": "ScreenMeetLiveiOS.SMVideoSource",
+                    "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -188,8 +195,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17ScreenMeetLiveiOS20VideoCapturerFactoryC05videoF0__8delegateAA07SMVideoF0_pAA0J6SourceO_AA16SMFrameProcessorCSo08RTCVideoF8Delegate_ptFZ",
-            "mangledName": "$s17ScreenMeetLiveiOS20VideoCapturerFactoryC05videoF0__8delegateAA07SMVideoF0_pAA0J6SourceO_AA16SMFrameProcessorCSo08RTCVideoF8Delegate_ptFZ",
+            "usr": "s:17ScreenMeetLiveiOS20VideoCapturerFactoryC05videoF0__8delegateAA07SMVideoF0_pAA0J6SourceOSg_AA16SMFrameProcessorCSo08RTCVideoF8Delegate_ptFZ",
+            "mangledName": "$s17ScreenMeetLiveiOS20VideoCapturerFactoryC05videoF0__8delegateAA07SMVideoF0_pAA0J6SourceOSg_AA16SMFrameProcessorCSo08RTCVideoF8Delegate_ptFZ",
             "moduleName": "ScreenMeetLiveiOS",
             "static": true,
             "declAttributes": [
@@ -28693,6 +28700,80 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isScreen",
+            "printedName": "isScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO02isA0Sbvp",
+            "mangledName": "$s17ScreenMeetLiveiOS13SMVideoSourceO02isA0Sbvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO02isA0Sbvg",
+                "mangledName": "$s17ScreenMeetLiveiOS13SMVideoSourceO02isA0Sbvg",
+                "moduleName": "ScreenMeetLiveiOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dimensions",
+            "printedName": "dimensions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO10dimensionsSo6CGSizeVvp",
+            "mangledName": "$s17ScreenMeetLiveiOS13SMVideoSourceO10dimensionsSo6CGSizeVvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO10dimensionsSo6CGSizeVvg",
+                "mangledName": "$s17ScreenMeetLiveiOS13SMVideoSourceO10dimensionsSo6CGSizeVvg",
+                "moduleName": "ScreenMeetLiveiOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -37777,39 +37858,6 @@
           },
           {
             "kind": "Var",
-            "name": "lastFramePossitions",
-            "printedName": "lastFramePossitions",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CoreFoundation.CGRect]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGRect",
-                    "printedName": "CoreFoundation.CGRect",
-                    "usr": "c:@S@CGRect"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ScreenMeetLiveiOS18SMConfidentialViewC19lastFramePossitions33_2140A2F923C60C1C55F2214F34CE74E2LLSaySo6CGRectVGvp",
-            "mangledName": "$s17ScreenMeetLiveiOS18SMConfidentialViewC19lastFramePossitions33_2140A2F923C60C1C55F2214F34CE74E2LLSaySo6CGRectVGvp",
-            "moduleName": "ScreenMeetLiveiOS",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "frame",
             "printedName": "frame",
             "children": [
@@ -37862,6 +37910,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastFramePossitions",
+            "printedName": "lastFramePossitions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGRect]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS18SMConfidentialViewC19lastFramePossitions33_2140A2F923C60C1C55F2214F34CE74E2LLSaySo6CGRectVGvp",
+            "mangledName": "$s17ScreenMeetLiveiOS18SMConfidentialViewC19lastFramePossitions33_2140A2F923C60C1C55F2214F34CE74E2LLSaySo6CGRectVGvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
           },
           {
             "kind": "Var",
@@ -51358,6 +51439,120 @@
           },
           {
             "kind": "Var",
+            "name": "videoSource",
+            "printedName": "videoSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "ScreenMeetLiveiOS.SMVideoSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMVideoSource",
+                    "printedName": "ScreenMeetLiveiOS.SMVideoSource",
+                    "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvp",
+            "mangledName": "$s17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ScreenMeetLiveiOS.SMVideoSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMVideoSource",
+                        "printedName": "ScreenMeetLiveiOS.SMVideoSource",
+                        "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvg",
+                "mangledName": "$s17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvg",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "ScreenMeetLiveiOS.SMVideoSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMVideoSource",
+                        "printedName": "ScreenMeetLiveiOS.SMVideoSource",
+                        "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvs",
+                "mangledName": "$s17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvs",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvM",
+                "mangledName": "$s17ScreenMeetLiveiOS16SMFrameProcessorC11videoSourceAA07SMVideoH0OSgvM",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "confidentialViews",
             "printedName": "confidentialViews",
             "children": [
@@ -51385,7 +51580,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 2,
             "hasStorage": true,
             "accessors": [
               {
@@ -51499,7 +51694,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 2,
+            "fixedbinaryorder": 3,
             "hasStorage": true,
             "accessors": [
               {
@@ -51614,7 +51809,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 4,
             "hasStorage": true
           },
           {
@@ -51640,7 +51835,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 5,
             "isLet": true,
             "hasStorage": true
           },
@@ -51810,7 +52005,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 6,
             "hasStorage": true
           },
           {
@@ -80444,6 +80639,154 @@
           },
           {
             "kind": "Var",
+            "name": "leftDoubleClicked",
+            "printedName": "leftDoubleClicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMMouseActionType.Type) -> ScreenMeetLiveiOS.SMMouseActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMMouseActionType",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                    "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMMouseActionType",
+                        "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                        "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO17leftDoubleClickedyA2CmF",
+            "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO17leftDoubleClickedyA2CmF",
+            "moduleName": "ScreenMeetLiveiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "rightDoubleClicked",
+            "printedName": "rightDoubleClicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMMouseActionType.Type) -> ScreenMeetLiveiOS.SMMouseActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMMouseActionType",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                    "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMMouseActionType",
+                        "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                        "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO18rightDoubleClickedyA2CmF",
+            "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO18rightDoubleClickedyA2CmF",
+            "moduleName": "ScreenMeetLiveiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "middleDown",
+            "printedName": "middleDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMMouseActionType.Type) -> ScreenMeetLiveiOS.SMMouseActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMMouseActionType",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                    "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMMouseActionType",
+                        "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                        "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO10middleDownyA2CmF",
+            "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO10middleDownyA2CmF",
+            "moduleName": "ScreenMeetLiveiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "middleUp",
+            "printedName": "middleUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMMouseActionType.Type) -> ScreenMeetLiveiOS.SMMouseActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMMouseActionType",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                    "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMMouseActionType",
+                        "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                        "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO8middleUpyA2CmF",
+            "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO8middleUpyA2CmF",
+            "moduleName": "ScreenMeetLiveiOS"
+          },
+          {
+            "kind": "Var",
             "name": "move",
             "printedName": "move",
             "children": [
@@ -80551,6 +80894,43 @@
             "declKind": "EnumElement",
             "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO7rightupyA2CmF",
             "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO7rightupyA2CmF",
+            "moduleName": "ScreenMeetLiveiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "wheel",
+            "printedName": "wheel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMMouseActionType.Type) -> ScreenMeetLiveiOS.SMMouseActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SMMouseActionType",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                    "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMMouseActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMMouseActionType",
+                        "printedName": "ScreenMeetLiveiOS.SMMouseActionType",
+                        "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS17SMMouseActionTypeO5wheelyA2CmF",
+            "mangledName": "$s17ScreenMeetLiveiOS17SMMouseActionTypeO5wheelyA2CmF",
             "moduleName": "ScreenMeetLiveiOS"
           },
           {
@@ -80686,17 +81066,26 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int64",
-                "printedName": "Swift.Int64",
-                "usr": "s:s5Int64V"
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64Vvp",
-            "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64Vvp",
+            "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64VSgvp",
+            "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64VSgvp",
             "moduleName": "ScreenMeetLiveiOS",
             "isOpen": true,
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "SetterAccess",
               "AccessControl",
@@ -80711,14 +81100,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64Vvg",
-                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64Vvg",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64VSgvg",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2tss5Int64VSgvg",
                 "moduleName": "ScreenMeetLiveiOS",
                 "implicit": true,
                 "isOpen": true,
@@ -80901,6 +81298,238 @@
                 "declKind": "Accessor",
                 "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC1ySdvM",
                 "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC1ySdvM",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dx",
+            "printedName": "dx",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvp",
+            "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvg",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvg",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvs",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvs",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvM",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dxSdSgvM",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dy",
+            "printedName": "dy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvp",
+            "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvp",
+            "moduleName": "ScreenMeetLiveiOS",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvg",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvg",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvs",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvs",
+                "moduleName": "ScreenMeetLiveiOS",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvM",
+                "mangledName": "$s17ScreenMeetLiveiOS25SMRemoteControlMouseEventC2dySdSgvM",
                 "moduleName": "ScreenMeetLiveiOS",
                 "implicit": true,
                 "isOpen": true,
@@ -93152,6 +93781,66 @@
           },
           {
             "kind": "Var",
+            "name": "screenCapturerInternalError",
+            "printedName": "screenCapturerInternalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ScreenMeetLiveiOS.SMErrorCode.Type) -> (ScreenMeetLiveiOS.SMVideoSource) -> ScreenMeetLiveiOS.SMErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ScreenMeetLiveiOS.SMVideoSource) -> ScreenMeetLiveiOS.SMErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMErrorCode",
+                        "printedName": "ScreenMeetLiveiOS.SMErrorCode",
+                        "usr": "s:17ScreenMeetLiveiOS11SMErrorCodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(source: ScreenMeetLiveiOS.SMVideoSource)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SMVideoSource",
+                            "printedName": "ScreenMeetLiveiOS.SMVideoSource",
+                            "usr": "s:17ScreenMeetLiveiOS13SMVideoSourceO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ScreenMeetLiveiOS.SMErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SMErrorCode",
+                        "printedName": "ScreenMeetLiveiOS.SMErrorCode",
+                        "usr": "s:17ScreenMeetLiveiOS11SMErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ScreenMeetLiveiOS11SMErrorCodeO27screenCapturerInternalErroryAcA13SMVideoSourceO_tcACmF",
+            "mangledName": "$s17ScreenMeetLiveiOS11SMErrorCodeO27screenCapturerInternalErroryAcA13SMVideoSourceO_tcACmF",
+            "moduleName": "ScreenMeetLiveiOS",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "mediaTrackError",
             "printedName": "mediaTrackError",
             "children": [
@@ -95670,9 +96359,6 @@
         "mangledName": "$s17ScreenMeetLiveiOS22SMRemoteControlChannelC",
         "moduleName": "ScreenMeetLiveiOS",
         "isOpen": true,
-        "declAttributes": [
-          "RawDocComment"
-        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -101466,7 +102152,7 @@
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/SMMediasoupChannel\/Tracks & Encodings\/SMTracksManager.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 7312,
       "length": 18,
       "value": "\"ScreenMeetLiveiOS.SMVideoTrackAssets\""
     },
@@ -104035,23 +104721,58 @@
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 324,
+      "length": 14,
+      "value": "\"leftdblclick\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 15,
+      "value": "\"rightdblclick\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 17,
+      "value": "\"middlemousedown\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 15,
+      "value": "\"middlemouseup\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
       "length": 11,
       "value": "\"mousemove\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 507,
       "length": 13,
       "value": "\"leftmouseup\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 540,
       "length": 14,
       "value": "\"rightmouseup\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 7,
+      "value": "\"wheel\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
@@ -104077,28 +104798,63 @@
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 324,
+      "length": 14,
+      "value": "\"leftdblclick\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 15,
+      "value": "\"rightdblclick\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 17,
+      "value": "\"middlemousedown\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 15,
+      "value": "\"middlemouseup\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
       "length": 11,
       "value": "\"mousemove\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 507,
       "length": 13,
       "value": "\"leftmouseup\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 540,
       "length": 14,
       "value": "\"rightmouseup\""
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 572,
+      "length": 7,
+      "value": "\"wheel\""
+    },
+    {
+      "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Transport\/Channels\/RemoteControl\/Events\/SMRemoteControlMouseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
       "length": 25,
       "value": "\"ScreenMeetLiveiOS.SMRemoteControlMouseEvent\""
     },
@@ -104399,42 +105155,42 @@
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1835,
+      "offset": 1929,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 1952,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1835,
+      "offset": 1929,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 1952,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1835,
+      "offset": 1929,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/ross\/Work\/mac\/screenmeet\/Common\/ScreenMeetSDK\/Session\/Transactions\/Error\/SMError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1858,
+      "offset": 1952,
       "length": 1,
       "value": "1"
     },

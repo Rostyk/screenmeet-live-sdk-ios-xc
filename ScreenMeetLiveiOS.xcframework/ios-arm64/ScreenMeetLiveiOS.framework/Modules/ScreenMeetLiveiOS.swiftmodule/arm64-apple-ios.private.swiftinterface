@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ScreenMeetLiveiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -409,9 +409,14 @@ public enum SMMouseActionType : Swift.String {
   case unknown
   case leftdown
   case rightdown
+  case leftDoubleClicked
+  case rightDoubleClicked
+  case middleDown
+  case middleUp
   case move
   case leftup
   case rightup
+  case wheel
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -419,13 +424,19 @@ public enum SMMouseActionType : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers public class SMRemoteControlMouseEvent : ScreenMeetLiveiOS.SMRemoteControlEvent {
-  public var ts: Swift.Int64 {
+  public var ts: Swift.Int64? {
     get
   }
   public var x: Swift.Double {
     get
   }
   public var y: Swift.Double {
+    get
+  }
+  public var dx: Swift.Double? {
+    get
+  }
+  public var dy: Swift.Double? {
     get
   }
   public var type: ScreenMeetLiveiOS.SMMouseActionType {
@@ -500,6 +511,7 @@ public enum SMErrorCode : Swift.Equatable {
   case notReachableError
   case transactionInternalError
   case capturerInternalError
+  case screenCapturerInternalError(source: ScreenMeetLiveiOS.SMVideoSource)
   case mediaTrackError
   case knockEntryPermissionRequiredError
   case knockWaitTimeForEntryExpiredError
