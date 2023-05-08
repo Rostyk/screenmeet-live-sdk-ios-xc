@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name ScreenMeetLive
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -189,7 +189,7 @@ public struct SMTrackInfo : SocketIO.SocketData {
   public var trackId: Swift.String! {
     get
   }
-  public func socketRepresentation() -> SocketIO.SocketData
+  public func socketRepresentation() -> any SocketIO.SocketData
 }
 public struct SMCameraConfiguration : Swift.Equatable {
   public var device: AVFoundation.AVCaptureDevice {
@@ -274,7 +274,7 @@ public struct SMParticipantMediaState {
   public var role: ScreenMeetLive.SMIdentityInfoRole!
   public var user: ScreenMeetLive.SMIdentityInfoUser!
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class SMChallenge {
   public func solve(_ answer: Swift.String)
@@ -359,16 +359,16 @@ public protocol ScreenMeetDelegate : AnyObject {
   public var imageTransferEnabled: Swift.Bool
   public var screenAnnotationEnabled: Swift.Bool
   public var talking: Swift.Bool
-  public func socketRepresentation() -> SocketIO.SocketData
+  public func socketRepresentation() -> any SocketIO.SocketData
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class ScreenMeet : ObjectiveC.NSObject {
   public static let config: ScreenMeetLive.ScreenMeetConfig
-  weak public static var delegate: ScreenMeetLive.ScreenMeetDelegate? {
+  weak public static var delegate: (any ScreenMeetLive.ScreenMeetDelegate)? {
     get
     set
   }
-  weak public static var chatDelegate: ScreenMeetLive.ScreenMeetChatDelegate? {
+  weak public static var chatDelegate: (any ScreenMeetLive.ScreenMeetChatDelegate)? {
     get
     set
   }
@@ -514,7 +514,7 @@ public enum SMDisconnectionReason {
     get
   }
   public init(_ from: Swift.String, _ to: Swift.String)
-  public func socketRepresentation() -> SocketIO.SocketData
+  public func socketRepresentation() -> any SocketIO.SocketData
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SMConfidentiality {
@@ -539,9 +539,9 @@ public enum SMIdentityInfoRole : Swift.Int, Swift.Codable {
 }
 public struct SMIdentityInfoUser : Swift.Codable, SocketIO.SocketData {
   public var name: Swift.String
-  public func socketRepresentation() -> SocketIO.SocketData
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func socketRepresentation() -> any SocketIO.SocketData
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum SMMouseActionType : Swift.String {
   case unknown
@@ -581,7 +581,7 @@ public enum SMMouseActionType : Swift.String {
     get
   }
   public init(_ from: Swift.String, _ to: Swift.String, _ x: Swift.Double, _ y: Swift.Double, _ type: ScreenMeetLive.SMMouseActionType)
-  override public func socketRepresentation() -> SocketIO.SocketData
+  override public func socketRepresentation() -> any SocketIO.SocketData
   @objc deinit
 }
 public enum SMKeyboardActionType : Swift.String {
@@ -608,7 +608,7 @@ public enum SMKeyboardActionType : Swift.String {
     get
   }
   public init(_ from: Swift.String, _ to: Swift.String, _ key: Swift.String, _ ascii: Swift.Int, _ unicode: Swift.Int, _ type: ScreenMeetLive.SMKeyboardActionType)
-  override public func socketRepresentation() -> SocketIO.SocketData
+  override public func socketRepresentation() -> any SocketIO.SocketData
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SMFeatureRequestData : SocketIO.SocketData {
@@ -639,7 +639,7 @@ public enum SMKeyboardActionType : Swift.String {
   public var uniqueRequestor: Swift.String! {
     get
   }
-  public func socketRepresentation() -> SocketIO.SocketData
+  public func socketRepresentation() -> any SocketIO.SocketData
   @objc deinit
 }
 public enum SMErrorCode : Swift.Equatable {
@@ -671,16 +671,16 @@ public struct SMError {
   public var challenge: ScreenMeetLive.SMChallenge?
 }
 public struct SMDesktopFeatures : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SMRoomFeatures : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SMConnectServers : Swift.Decodable {
   public var live: ScreenMeetLive.SMConnectLiveServer {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SMRoomSettings : Swift.Decodable {
   public func audioEnabled() -> Swift.Bool
@@ -689,13 +689,13 @@ public struct SMRoomSettings : Swift.Decodable {
   public func guestVideoEnabled() -> Swift.Bool
   public func startWithRemoteControl() -> Swift.Bool
   public func startwithAdminEnabled() -> Swift.Bool
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct SMConnectLiveServer : Swift.Decodable {
   public var endpoint: Swift.String {
     get
   }
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ScreenMeetLive.SMCapability : Swift.Equatable {}
 extension ScreenMeetLive.SMCapability : Swift.Hashable {}
