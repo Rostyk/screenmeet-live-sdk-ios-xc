@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenMeetSDK3'
-  s.version          = '3.0.82'
+  s.version          = '3.0.83'
   s.summary          = 'ScreenMeetSDK enables ScreenMeet\'s realtime platform in your app.'
 
   s.description      = <<-DESC
@@ -24,4 +24,9 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'ScreenMeetLive.xcframework'
 
   s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+
+  spec.prepare_command = <<-CMD
+    ruby b.rb
+  CMD
+
 end
