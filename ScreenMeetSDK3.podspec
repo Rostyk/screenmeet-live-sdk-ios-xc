@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
-  spec.prepare_command = <<-CMD
+  s.prepare_command = <<-CMD
     ruby b.rb
   CMD
 
