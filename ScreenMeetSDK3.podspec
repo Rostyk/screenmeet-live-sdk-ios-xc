@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScreenMeetSDK3'
-  s.version          = '3.0.98'
+  s.version          = '3.0.99'
   s.summary          = 'ScreenMeetSDK enables ScreenMeet\'s realtime platform in your app.'
 
   s.description      = <<-DESC
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
   s.dependency  'Socket.IO-Client-Swift', '~> 16.1.0'
+  s.dependency 'Starscream', '4.0.6'
   s.dependency  'UniversalWebRTC', '~> 106.0.7'
 
 
